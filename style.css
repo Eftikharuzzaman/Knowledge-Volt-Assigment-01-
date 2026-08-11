@@ -1,0 +1,377 @@
+/* ===============> Universal Selector Design <=============== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* ===============> Universal Selector Design <=============== */
+
+/* ++++++++++++++++++++++++ navbar Section Design Start ++++++++++++++++++++++++ */
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1360px;
+    width: 71%;
+    margin: 0 auto;
+    padding: 16px 0;
+    /* background-color: beige; */
+}
+header nav .logo img{
+    width: 139px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+header nav .menu ul{
+    display: flex;
+    gap: 32px;
+}
+header nav .menu ul li{
+    padding: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+header nav .menu ul li a{
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 500;
+    color: #000000;
+}
+header nav .button .btn{
+    background-color: #469165;
+    padding: 12.5px 16px;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+/* ++++++++++++++++++++++++ navbar Section Design Start ++++++++++++++++++++++++ */
+
+/* ++++++++++++++++++++++++ Banner Section Design Start ++++++++++++++++++++++++ */
+
+#banner{
+    background: url(Images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner .banner_content{
+    max-width: 1360px;
+    width: 71%;
+    margin: 0 auto;
+    /* background-color: bisque; */
+    text-align: center;
+    padding: 116px 120px 180px 120px;
+}
+#banner .banner_content .frame a{
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 500;
+    color: #469165;
+    padding: 8px 12px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+}
+#banner .banner_content h1{
+    font-family: Inter;
+    font-size: 84px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 16px;
+    /* max-width: 770px; */
+}
+#banner .banner_content h1 span{
+    display: inline-block;
+    color: #30B868;
+}
+#banner .banner_content p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Inter;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+#banner .banner_content p span{
+    display: inline-block;
+}
+#banner .banner_content .button{
+    margin-top: 32px;
+    
+}
+#banner .banner_content .button .btn{
+    padding: 16.5px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-right: 16px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    transition: 0.5s all ease;
+}
+#banner .banner_content .button .btn:hover{
+    background-color: #469165;
+}
+
+#banner .banner_content .button .btn a{
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+/* ++++++++++++++++++++++++ Banner Section Design Start ++++++++++++++++++++++++ */
+
+/* ++++++++++++++++++++++++ Note Section Design Start ++++++++++++++++++++++++ */
+
+#note{
+    margin: 90px 0;
+}
+
+#note .note_container{
+    max-width: 1360px;
+    width: 71%;
+    margin: 0 auto;
+    text-align: center;
+}
+#note .note_container .note_heading h2{
+    font-family: Inter;
+    font-size: 53px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+#note .note_container .note_heading p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom: 44px;
+    text-align: center;
+}
+#note .note_container .note_items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+}
+#note .note_container .note_items .note_content{
+    max-width: 274px;
+    padding: 69.5px 24px;
+    box-shadow: 0 6px 50px 0 #00000073;
+}
+#note .note_container .note_items .note_content .note_img img{
+    /* width: 32px; */
+    padding: 15px 15px;
+    background-color: #F95555;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+#note .note_container .note_items .note_content .note_text h4{
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+#note .note_container .note_items .note_content .note_text p{
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    color: #627382;
+}
+
+/* ++++++++++++++++++++++++ Note Section Design Start ++++++++++++++++++++++++ */
+
+/* ++++++++++++++++++++++++ Knowledge Vault Design Start ++++++++++++++++++++++++ */
+
+/* #knowledge_vault{
+
+} */
+#knowledge_vault{
+    margin-bottom: 90px;
+}
+#knowledge_vault .knowledge_vault_container{
+    max-width: 1360px;
+    width: 71%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+#knowledge_vault .knowledge_vault_container .knowledge_vault_image{
+    width: 600px;
+    margin-right: 60px;
+}
+#knowledge_vault .knowledge_vault_container .knowledge_vault_text{
+    max-width: 700px;
+}
+#knowledge_vault .knowledge_vault_container .knowledge_vault_text .color_text{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    margin-bottom: 16px;
+}
+#knowledge_vault .knowledge_vault_container .knowledge_vault_text h2{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+#knowledge_vault .knowledge_vault_container .knowledge_vault_text h2 span{
+    display: inline-block;
+}
+#knowledge_vault .knowledge_vault_container .knowledge_vault_text .second_color_text{
+    width: 500px;
+    margin-bottom: 25px;
+    margin-top: 16px;
+}
+#knowledge_vault .knowledge_vault_container .knowledge_vault_text .pointers{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    
+}
+#knowledge_vault .knowledge_vault_container .knowledge_vault_text .pointers img{
+    margin-right: 6px;
+}
+#knowledge_vault .knowledge_vault_container .knowledge_vault_text .pointers p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    color: #001931;
+}
+
+/* ++++++++++++++++++++++++ Knowledge Vault Design End ++++++++++++++++++++++++ */
+
+/* ++++++++++++++++++++++++ Access Section Design Start ++++++++++++++++++++++++ */ 
+
+#access{
+    margin-bottom: 90px;
+}
+#access .access_container{
+    max-width: 1360px;
+    width: 71%;
+    background-color: #F7F6F2;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 40px;
+}
+#access .access_container .items h1{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+#access .access_container .items p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom: 24px;
+}
+#access .access_container .items p span{
+    display: block;
+}
+#access .access_container .items button{
+    padding: 16.5px 16.5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #469165;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+#access .access_container .items button a{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+/* ++++++++++++++++++++++++ Access Section Design End ++++++++++++++++++++++++ */ 
+
+/* ++++++++++++++++++++++++ Footer Section Design Start ++++++++++++++++++++++++ */ 
+
+
+footer{
+    width: 100%;
+    background-color: #001931;
+}
+footer .footer_container{
+    max-width: 1360px;
+    width: 71%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 120px 20px;
+}
+footer .footer_container .logo img{
+    cursor: pointer;
+    width: 139px;
+}
+footer .footer_container .text p{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+footer .footer_container .text .logos{
+    display: flex;
+    gap: 16px;
+}
+
+footer .footer_container .text .logos i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    color: #001931;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s all ease;
+}
+
+footer .footer_container .text .logos i:hover{
+    background-color: red;
+    color: #FFFFFF;
+}
+footer .footer_text p{
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Inter;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++ Footer Section Design End ++++++++++++++++++++++++ */ 
